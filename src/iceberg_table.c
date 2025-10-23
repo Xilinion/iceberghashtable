@@ -22,7 +22,7 @@
 #define likely(x)   __builtin_expect((x),1)
 #define unlikely(x) __builtin_expect((x),0)
 
-#define RESIZE_THRESHOLD 0.96
+#define RESIZE_THRESHOLD 0.7
 /*#define RESIZE_THRESHOLD 0.85 // For YCSB*/
 
 #ifdef PMEM
